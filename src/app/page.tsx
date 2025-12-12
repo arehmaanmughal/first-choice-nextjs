@@ -159,7 +159,7 @@ export default function Home() {
       </nav>
 
       {/* Premium Hero Section */}
-      <section className="relative h-screen flex items-center justify-center pt-16 sm:pt-20 md:pt-24 pb-4 sm:pb-8 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-200">
+      <section className="relative h-screen flex items-center justify-center pt-16 sm:pt-20 md:pt-24 pb-4 sm:pb-8 overflow-hidden bg-gradient-to-br from-gray-900 via-blue-900 to-indigo-900">
         {/* Decorative Background Elements */}
         <div className="absolute inset-0 overflow-hidden">
           <div className="absolute -top-20 sm:-top-40 -right-20 sm:-right-40 w-40 sm:w-60 md:w-80 h-40 sm:h-60 md:h-80 bg-blue-600 rounded-full mix-blend-multiply filter blur-xl opacity-20 animate-blob"></div>
@@ -266,16 +266,7 @@ export default function Home() {
                 </div>
               </div>
               
-              {/* Floating Badge */}
-              <div className="absolute -bottom-1 sm:-bottom-2 md:-bottom-4 -right-1 sm:-right-2 md:-right-4 bg-white rounded-lg sm:rounded-xl md:rounded-2xl p-2 sm:p-3 md:p-4 shadow-2xl border border-gray-100">
-                <div className="flex items-center space-x-1.5 sm:space-x-2 md:space-x-3">
-                  <TrophyIcon className="h-5 w-5 sm:h-6 sm:w-6 md:h-8 md:w-8 text-yellow-500" />
-                  <div>
-                    <div className="text-[10px] sm:text-xs md:text-sm font-bold text-gray-900">Award Winning</div>
-                    <div className="text-[9px] sm:text-[10px] md:text-xs text-gray-600">Best Consultancy 2024</div>
-                  </div>
-                </div>
-              </div>
+             
             </div>
           </div>
         </div>
